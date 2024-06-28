@@ -114,6 +114,14 @@
 .shop_main-action {
     width: 100%; 
 }
+.shop_main-action > a {
+    text-decoration: none;
+    color: #555555; 
+}
+.shop_main-action > a:hover {
+    text-decoration: none;
+    color: #555555; 
+}
 .footer-main-product {
     width: 100%; 
 }
@@ -309,4 +317,7 @@
 }
 .fixed-select > div {
     height: 75px !important;
+}
+#combobox_mobile {
+    display: none; 
 }

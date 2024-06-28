@@ -45,6 +45,9 @@
     .combobox_mobile {
         text-align: center;
     }
+    #combobox_mobile {
+        display: block; 
+    }
     .combobox_mobile > select {
         height: 46px;
         padding-left: 16px; 
