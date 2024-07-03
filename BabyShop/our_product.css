@@ -1,0 +1,452 @@
+.title-banner {
+    color: #373f4b; 
+    font-size: 20px; 
+    font-weight: 400;
+}
+.menu-banner {
+    padding-bottom: 10px; 
+}
+.menu-banner > h3 > a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6a717c; 
+}
+.menu-banner > i {
+    color: #6a717c; 
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+.menu_item-banner {
+    padding-left: 20px; 
+    display: none;  
+}
+.menu_item-banner > div{
+    padding-bottom: 20px;   
+} 
+.menu_item-banner > div > a{
+
+    color: #6a717c; 
+}
+.age-banner > h3  > a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6a717c; 
+}
+.age-item > span {
+    color: #6a717c; 
+    font-weight: 400;
+    font-size: 16px; 
+}
+.color-banner > h3 > a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #6a717c;
+}
+.color_select-banner {
+    width: 100%;
+}
+.border-banner {
+    width: 35px; 
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, .1); 
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.color_select-banner {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 16px; 
+}
+.border-banner {
+    position: relative;
+}
+.border-banner > div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #acdcdd; 
+}
+.tooltip-color {
+    position: absolute; 
+    left: -40px;
+    top: -50px; 
+    text-align: center; 
+    margin: auto; 
+    transform: translateY(10%);
+    transition: transform 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.border-banner:hover {
+    cursor: pointer;
+}
+.border-banner:hover .tooltip-color {
+    transform:  translateY(-10%);
+    opacity: 1;
+    visibility: visible;
+}
+.tooltip-color > i {  
+    font-size: 20px;  
+}
+.tooltip-color > div {
+    padding: 8px;
+    margin-bottom: -13px;  
+    background-color: black; 
+    color: #fff; 
+    border-radius: 6px;
+}
+.height-hover {
+    position: relative; 
+}
+.tooltip-size {
+    position: absolute; 
+    top: -50px; 
+    text-align: center; 
+    margin: auto; 
+    transform: translateY(10%);
+    transition: transform 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.tooltip-size > i {  
+    font-size: 20px;  
+}
+.height-hover:hover .tooltip-size{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-10%);
+}
+.height-hover:hover {
+    cursor: pointer;
+}
+.tooltip-size > div {
+    padding: 8px;
+    margin-bottom: -13px;  
+    background-color: black; 
+    color: #fff; 
+    border-radius: 6px;
+}
+.black-banner > div {
+    background-color: black; 
+}
+.une-banner > div {
+    background-color: #3a6380; 
+}
+.brow-banner > div {
+    background-color: #773d49; 
+}
+.pink-banner > div {
+    background-color: #eedcd8; 
+}
+.red-banner > div {
+    background-color: #bc2a32; 
+}
+.violet-banner > div {
+    background-color: #5a3652; 
+}
+.yellow-banner > div {
+    background-color: #edc582; 
+}
+.size {
+    width: 40px; 
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, .1); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.size-banner {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 16px; 
+}
+.circle-banner {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #6a717c; 
+}
+.restag-banner {
+    width: 100%; 
+    height: 7px;
+    background-color: #6a717c; 
+}
+.button-banner {
+    padding: 8px; 
+    padding-right: 40px; 
+    outline: none; 
+    border: 1px solid black; 
+    border-radius: 4px;
+    color: #6a717c; 
+    margin-top: 20px; 
+}
+.thongbao-banner {
+    width: 100%; 
+    background-color: #f0f2f6; 
+    text-align: center;
+    border-radius: 6px;
+    padding-bottom: 30px; 
+}
+.thongbao-banner > h1 {
+    font-size: 30px; 
+    font-weight: 500;
+    font-family: "Bodoni Moda"; 
+    color: #171b20; 
+    margin-bottom: 15px; 
+    margin-top: 15px; 
+}
+.thongso-banner {
+    margin-bottom: 15px; 
+}
+.thongso-banner > span{
+    color: #6a717c; 
+}
+.readmore-banner {
+    height: 36px;
+    position: relative; 
+}
+.readmore-banner > a {
+    color: #171b20; 
+    font-weight: 700; 
+}
+.banner-babyshop {
+    padding-left: 15px; 
+    padding-right: 15px;
+    background-color: #fff; 
+}
+.products-babyshop {
+    background-color: #fff; 
+    padding-bottom: 15px; 
+}
+.height-banner > h3 > a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6a717c;
+}
+.hover-readmore {
+    width: 100px; 
+    height: 3px;
+    background-color: #171b20; 
+    margin: auto; 
+    transform: translateY(10%);
+    transition: transform 0.3s;
+    position: absolute; 
+    bottom: -10; 
+    left: 36%; 
+    opacity: 0; 
+}
+.readmore-banner:hover .hover-readmore {
+    transform: translateY(-50px);
+    opacity: 1;
+}
+.readmore-banner:hover > a{
+    color: #171b20; 
+    text-decoration: none;
+}
+.cantooltip {
+    left: -10px; 
+}
+.banner-product {
+    height: 150px;
+    position: relative; 
+    overflow: hidden;
+}
+.banner-product > img {
+    position: absolute; 
+    height: 100%;
+    width: 100%; 
+    transform: scale(1.4);
+}
+.content_banner-product {
+    width: 100%; 
+    height: 100%;
+}
+.banner-product > div > h2 {
+    font-size: 20px; 
+    color: #171b20;
+    padding-left: 20px;  
+}
+.banner-product > div > h2 > span {
+    background-color: #171b20; 
+    color: #fff; 
+    border-radius: 3px;
+    padding: 1px 7px; 
+}
+.scale-products {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 12px; 
+    align-items: center;
+}
+.icon-grid > i{
+    margin-left: 12px; 
+    color: #6a717c;
+    font-size: 20px; 
+}
+.icon-grid > i:first-child {
+    color: black; 
+}
+.select_number {
+    color: #6a717c; 
+}
+.email-products {
+    position: relative;
+    width: 50%;
+    margin: auto;  
+}
+.email-products > h1 {
+    color: #171b20; 
+    font-size: 50px; 
+    font-family: 'Bodoni Moda'; 
+    font-weight: 500;
+}
+.highline {
+    height: 8px;
+    width: 260px; 
+    background-color: #ebc989; 
+    position: absolute; 
+    top: 94px; 
+    left: 50%; 
+}
+.email-products > input {
+    width: 100%; 
+    height: 46px;
+    background-color: #EBEBEB; 
+    border: none; 
+    border-radius: 6px;
+    padding-left: 8px; 
+    margin-top: 20px; 
+}
+.button-email {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+.email-products > p{
+    color: #9fa3a9; 
+}
+.tieude-products {
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    z-index: 1;  
+   background-color: #fff;
+}
+.main-products {
+    z-index: 1;
+    background-color: #fff; 
+}
+.tieude-products > h2 {
+    color: #171b20; 
+    font-size: 55px; 
+    font-family: 'Bodoni Moda'; 
+    font-weight: 500;
+}
+.tieude-products > div > a {
+    color: #6a717c; 
+}
+.tieude-products > div > i {
+    color: #6a717c; 
+    padding-left: 8px;
+    padding-right: 8px; 
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+  }
+  #placeholder {
+    display: none;
+  }
+.footer-babyshop > div{
+    padding-top: 60px !important; 
+}
+
+
+
+
+
+.popup-xemchitiet {
+    position: relative; 
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 3;
+    display: none;
+}
+
+.xemchitiet {
+    width: 60% !important;
+    position: absolute; 
+    top: 10%; 
+    left: 20%;  
+    background-color: #fff; 
+    display: flex; 
+    justify-content: space-between;
+    z-index: 4;
+}
+.xemchitiet > .form-img-detail {
+    width: 48% !important;
+    height: 100% !important; 
+}
+.xemchitiet > .infor_main-product {
+    width: 48% !important; 
+}
+.xemchitiet > .form-img-detail {
+    width: 48% !important; 
+}
+.xemchitiet > .infor_main-product {
+    width: 48% !important; 
+}
+
+.infor_main-product {
+    height: 550px;
+    overflow: auto;
+}
+.infor_main-product > div > h2 {
+    color: #171b20; 
+    font-family: "Bodoni Moda"; 
+}
+.xemchitiet-close {
+    position: absolute; 
+    top: 14%; 
+    right: 22%; 
+    z-index: 4; 
+}
+.background-xemchitiet {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100vh;
+    background-color: black; 
+    opacity: 0.3;
+}
+.fill-mobile {
+    display: none;
+}
+.checklist_mobile {
+    display: none; 
+}
+#stickyElement1 {
+    display: none;
+}
+.shop_item-products > div:first-child > a {
+    width: 100%; 
+}
+.shop_item-products > div:first-child > a > img {
+    width: 100%; 
+}
+.shop_item-content{
+    bottom: -54px; 
+}
+.shop_item-content > a{
+    color: black; 
+}
+.shop_item-content > a:hover {
+    color: #ebc989; 
+}
+

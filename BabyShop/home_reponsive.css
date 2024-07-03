@@ -1,0 +1,369 @@
+@media (min-width: 768px) and (max-width: 1023px){
+    .thuonghieu {
+        display: none; 
+    }
+    #navbar-babyshop {
+        display: none;
+    }
+    #navbar-babyshop1{
+        display: none;
+    }
+    .navbar_mobile {
+        display: block;
+        padding-top: 16px; 
+        padding-bottom: 16px; 
+        border-bottom: 1px solid silver; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        z-index: 1; 
+        background-color: #fff; 
+    }
+    .logo_navbar-mobile {
+        width: 70%; 
+        margin: auto; 
+    }
+    .logo_navbar-mobile > a {
+        width: 40%; 
+    }
+    .logo_navbar-mobile > a > img {
+        width: 100%;  
+    }
+    .navbar_mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar_mobile > div {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar_mobile > div > i {
+        margin-right: 5px; 
+    }
+    .collection-2021 {
+        left: 18% !important; 
+    }
+    .select-age {
+        margin-top: 25px; 
+    }
+    .duvet-cover {
+        margin-top: 25px; 
+    }
+    .form-img-detail {
+        margin-top: 50px; 
+    }
+    .holoday-image > img {
+        width: 100%; 
+    }
+    .giamgia-babyshop {
+        margin-top: 137%; 
+    }
+    .benefits-babyshop > p {
+        width: 100% !important;
+    }
+    .button_babyshop-home {
+        margin-left: 50px; 
+    }
+    .new1 {
+        width: 100%;
+        height: 400px;
+    }
+    .new2 {
+        width: 100%; 
+        height: 300px;
+    }
+    .hang-babyshop {
+        width: 48%; 
+    }
+    .ins-banner > img {
+        transform: scale(2.3);
+    }
+    .icon-insta {
+        width: 48%; 
+        margin: auto; 
+        margin-bottom: 16px; 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon-insta > div {
+        width: 100%; 
+    }
+    .footer_mobile {
+        display: none;
+    }
+    .footer-babyshop {
+        z-index: 0;
+        position: relative;
+    }
+    .container-fruit > div > div {
+        text-align: center;
+    }
+    .phone_footer-phan4 { 
+        margin-left: 35%; 
+    }
+    .header_footer-phan2 {
+        margin-top: 40px; 
+    }
+    .footer_phan1 > img {
+        width: 200px; 
+    }
+    #menu_mobile-app {
+        display: block; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        
+        transform: translateX(30%);
+        transition: transform 0.3s;
+        visibility: hidden;
+    }
+    .nen_mobile {
+        position: absolute; 
+        top: 0;
+        left: 0; 
+        background-color: black; 
+        opacity: 0.3;
+        width: 60%; 
+        height: 100vh;
+        z-index: 4; 
+       
+    }
+    .menu_mobile {
+        width: 40%; 
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        background-color: #232c38; 
+        height: 100vh;
+        /*transform: translateX(50%);
+        transition:  transform 0.3s;
+        /* visibility: hidden;
+        opacity: 0; */
+    }
+    .menu_mobile > div {
+        width: 100%; 
+        color: #fff; 
+    }
+    .menu_mobile > div > i {
+        font-size: 30px; 
+    }
+    .thongbaomobile {
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .menu_mobile > div > ul {
+        margin-left: -20px; 
+        margin-top: 40px; 
+    }
+    .menu_mobile > div > ul > li {
+        list-style-type: none;
+        padding-bottom: 20px; 
+    }
+    .menu_mobile > div > ul > li > a {
+        color: #fff; 
+        font-weight: 600;
+    }
+    .menu_mobile > div > ul > li > a:hover {
+        color: #ebc989; 
+    }
+    .menu_mobile > div > a {
+        color: #fff; 
+        font-size: 12px; 
+    }
+    .banner-mobile {
+        margin-top: 80px; 
+    }
+    .menu_mobile-app {
+        z-index: 2;
+    }
+}
+@media (max-width: 767px){
+    .thuonghieu {
+        display: none; 
+    }
+    #navbar-babyshop {
+        display: none;
+    }
+    #navbar-babyshop1{
+        display: none;
+    }
+    .navbar_mobile {
+        display: block;
+        padding-top: 16px; 
+        padding-bottom: 16px; 
+        border-bottom: 1px solid silver; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        z-index: 1; 
+        background-color: #fff; 
+    }
+    .logo_navbar-mobile {
+        width: 70%; 
+        margin: auto; 
+    }
+    .logo_navbar-mobile > a {
+        width: 40%; 
+    }
+    .logo_navbar-mobile > a > img {
+        width: 100%;  
+    }
+    .navbar_mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar_mobile > div {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar_mobile > div > i {
+        margin-right: 5px; 
+    }
+    .collection-2021 {
+        left: 18% !important; 
+    }
+    .select-age {
+        margin-top: 25px; 
+    }
+    .duvet-cover {
+        margin-top: 25px; 
+    }
+    .form-img-detail {
+        margin-top: 50px; 
+    }
+    .holoday-image > img {
+        width: 100%; 
+    }
+    .giamgia-babyshop {
+        margin-top: 137%; 
+    }
+    .benefits-babyshop > p {
+        width: 100% !important;
+    }
+    .button_babyshop-home {
+        margin-left: 50px; 
+    }
+    .new1 {
+        width: 100%;
+        height: 400px;
+    }
+    .new2 {
+        width: 100%; 
+        height: 300px;
+    }
+    .hang-babyshop {
+        width: 48%; 
+    }
+    .ins-banner > img {
+        transform: scale(2.3);
+    }
+    .icon-insta {
+        width: 48%; 
+        margin: auto; 
+        margin-bottom: 16px; 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon-insta > div {
+        width: 100%; 
+    }
+    .footer_mobile {
+        display: none;
+    }
+    .footer-babyshop {
+        z-index: 0;
+        position: relative;
+    }
+    .container-fruit > div > div {
+        text-align: center;
+    }
+    .phone_footer-phan4 { 
+        margin-left: 35%; 
+    }
+    .header_footer-phan2 {
+        margin-top: 40px; 
+    }
+    .footer_phan1 > img {
+        width: 200px; 
+    }
+    #menu_mobile-app {
+        display: block; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        
+        transform: translateX(30%);
+        transition: transform 0.3s;
+        visibility: hidden;
+    }
+    .nen_mobile {
+        position: absolute; 
+        top: 0;
+        left: 0; 
+        background-color: black; 
+        opacity: 0.3;
+        width: 60%; 
+        height: 100vh;
+        z-index: 4; 
+       
+    }
+    .menu_mobile {
+        width: 40%; 
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        background-color: #232c38; 
+        height: 100vh;
+        /*transform: translateX(50%);
+        transition:  transform 0.3s;
+        /* visibility: hidden;
+        opacity: 0; */
+    }
+    .menu_mobile > div {
+        width: 100%; 
+        color: #fff; 
+    }
+    .menu_mobile > div > i {
+        font-size: 30px; 
+    }
+    .thongbaomobile {
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .menu_mobile > div > ul {
+        margin-left: -20px; 
+        margin-top: 40px; 
+    }
+    .menu_mobile > div > ul > li {
+        list-style-type: none;
+        padding-bottom: 20px; 
+    }
+    .menu_mobile > div > ul > li > a {
+        color: #fff; 
+        font-weight: 600;
+    }
+    .menu_mobile > div > ul > li > a:hover {
+        color: #ebc989; 
+    }
+    .menu_mobile > div > a {
+        color: #fff; 
+        font-size: 12px; 
+    }
+    .banner-mobile {
+        margin-top: 80px; 
+    }
+    .menu_mobile-app {
+        z-index: 2;
+    }
+    
+}

@@ -1,0 +1,246 @@
+@media (max-width: 767px){
+    #router-title {
+        display: none; 
+    }
+    #stickyElement {
+        display: none; 
+    }
+    #placeholder {
+        display: none;
+    }
+    .products-babyshop {
+        width: 100% !important; 
+    }
+    .banner-product {
+        width: 100%; 
+    }
+    .banner-product > img {
+        width: 100%; 
+        top: 0; 
+        left:0; 
+    }
+    .content_banner-product > h2 {
+        width: 100%; 
+        text-align: center;
+    }
+    .content_banner-product > a {
+        margin: auto; 
+    }
+    .scale-products {
+        display: none;
+    }
+    .fill-mobile {
+        display: block; 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #footerdem {
+        display: none; 
+    }
+    .footer-babyshop {
+        z-index: -1; 
+        margin-bottom: 0; 
+        position: relative;
+        padding-top: 0 !important; 
+        margin-bottom: 0px; 
+    }
+    .highline {
+        left: 10%;
+        top: 25%;
+        z-index: 0;  
+    }
+    .menu_mobile-app {
+        z-index: 2;
+    }
+    .checklist_mobile {
+        display: block; 
+    }
+    .checklist_mobile {
+        position: fixed; 
+        top: 40%; 
+        left: 0;
+        z-index: 2;
+        transform: translateX(0%);
+        transition: transform 0.3s;
+    }
+    .checklist_mobile > i {
+        background-color: #fff; 
+        border-radius: 4px;
+        color: black; 
+        font-size: 30px; 
+        padding-top: 15px; 
+        padding-bottom: 15px; 
+        padding-left: 8px; 
+        padding-right: 8px; 
+        box-shadow: 0 5px 15px 0 rgba(8, 8, 14, .13); 
+    }
+    #slidbar_mobile {
+        z-index: 1; 
+        position: fixed; 
+        top: 0;
+        left: 0; 
+        bottom: 0; 
+        width: 100%; 
+        
+    }
+    #stickyElement1 {
+        display: block; 
+        transform: translateX(-20%);
+        transition: transfrom 0.3s;
+        visibility: hidden;
+    }
+    .banner-babyshop {
+        width: 50%; 
+        padding-top: 20px; 
+        height: 100vh;
+        overflow: auto;
+        float: left;
+    }
+    .nen_mobile {
+        width: 50%; 
+        background-color: black;
+        opacity: 0.3;
+        height: 100vh; 
+        float: left;
+        margin-left: 50%;  
+        transform: translateX(-20%);
+        transition: transfrom 0.3s;
+        visibility: hidden;
+    }
+    .xemchitiet {
+        top: 20px; 
+        left: 5%; 
+        width: 90% !important; 
+        height: calc(100vh - 20px - 20px);
+        overflow: auto;
+        padding-top: 0; 
+    }
+    #xemchitiet-close {
+        top: 30px;
+        right: 40px;  
+    }
+    .form-img-detail {
+        width: 100%;
+        margin-top: -20px; 
+        margin-bottom: 20px; 
+        padding-right: 10px;   
+    }
+    .infor_main-product {
+        overflow: none;
+        height: 100vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    #router-title {
+        display: none; 
+    }
+    #stickyElement {
+        display: none; 
+    }
+    #placeholder {
+        display: none;
+    }
+    .products-babyshop {
+        width: 100% !important; 
+    }
+    .banner-product {
+        width: 100%; 
+    }
+    .banner-product > img {
+        width: 100%; 
+        top: 0; 
+        left:0; 
+    }
+    .content_banner-product > h2 {
+        width: 100%; 
+        text-align: center;
+    }
+    .content_banner-product > a {
+        margin: auto; 
+    }
+    .scale-products {
+        display: none;
+    }
+    .fill-mobile {
+        display: block; 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #footerdem {
+        display: none; 
+    }
+    .footer-babyshop {
+        z-index: -1; 
+        margin-bottom: 0; 
+        position: relative;
+        padding-top: 0 !important; 
+        margin-bottom: 0px; 
+    }
+    .highline {
+        left: 10%;
+        top: 25%;
+        z-index: 0;  
+    }
+    .menu_mobile-app {
+        z-index: 2;
+    }
+    .checklist_mobile {
+        display: block; 
+    }
+    .checklist_mobile {
+        position: fixed; 
+        top: 40%; 
+        left: 0;
+        z-index: 2;
+        transform: translateX(0%);
+        transition: transform 0.3s;
+    }
+    .checklist_mobile > i {
+        background-color: #fff; 
+        border-radius: 4px;
+        color: black; 
+        font-size: 30px; 
+        padding-top: 15px; 
+        padding-bottom: 15px; 
+        padding-left: 8px; 
+        padding-right: 8px; 
+        box-shadow: 0 5px 15px 0 rgba(8, 8, 14, .13); 
+    }
+    #slidbar_mobile {
+        z-index: 1; 
+        position: fixed; 
+        top: 0;
+        left: 0; 
+        bottom: 0; 
+        width: 100%; 
+        
+    }
+    #stickyElement1 {
+        display: block; 
+        transform: translateX(-20%);
+        transition: transfrom 0.3s;
+        visibility: hidden;
+    }
+    .banner-babyshop {
+        width: 50%; 
+        padding-top: 20px; 
+        height: 100vh;
+        overflow: auto;
+        float: left;
+    }
+    .nen_mobile {
+        width: 50%; 
+        background-color: black;
+        opacity: 0.3;
+        height: 100vh; 
+        float: left;
+        margin-left: 50%;  
+        transform: translateX(-20%);
+        transition: transfrom 0.3s;
+        visibility: hidden;
+    }
+}

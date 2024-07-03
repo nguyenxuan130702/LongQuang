@@ -1,0 +1,90 @@
+@media (max-width: 767px){
+    .navbar_mobile {
+        display: block;
+    }
+    #navbar-babyshop1 {
+        display: none;
+    }
+    #navbar-babyshop {
+        display: none;
+    }
+    .detail-products > div > div {
+        margin-bottom: 16px; 
+    }
+    .heart-control {
+        top: 20px !important; 
+        right: 30px !important; 
+    }
+    .enviro_icon-flex {
+        width: 100% !important;
+    }
+    .compare_item {
+        width: 100%;
+    }
+    .shop_item-products  {
+        width: 48% !important;
+    }
+    .icon-insta {
+        display: flex; 
+        flex-direction: column;
+        margin-bottom: 20px; 
+    }
+    #footerdem {
+        display: none; 
+    }
+    .footer-babyshop {
+        z-index: 0;
+        position: relative; 
+        text-align: center;
+    }
+    .phone_footer-phan4 {
+        margin-left: 30%; 
+    }
+    /* #menu_mobile-app {
+        visibility: visible !important;
+        opacity: 1;
+    } */
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .navbar_mobile {
+        display: block;
+    }
+    #navbar-babyshop1 {
+        display: none;
+    }
+    #navbar-babyshop {
+        display: none;
+    }
+    .detail-products > div > div {
+        margin-bottom: 16px; 
+    }
+    .heart-control {
+        top: 20px !important; 
+        right: 30px !important; 
+    }
+    .enviro_icon-flex {
+        width: 100% !important;
+    }
+    .compare_item {
+        width: 100%;
+    }
+    .shop_item-products  {
+        width: 48% !important;
+    }
+    .icon-insta {
+        display: flex; 
+        flex-direction: column;
+        margin-bottom: 20px; 
+    }
+    #footerdem {
+        display: none; 
+    }
+    .footer-babyshop {
+        z-index: 0;
+        position: relative; 
+        text-align: center;
+    }
+    .phone_footer-phan4 {
+        margin-left: 30%; 
+    }
+}

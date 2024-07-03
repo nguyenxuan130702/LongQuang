@@ -1,0 +1,512 @@
+.thumbnail-container > img{
+    width: 100%; 
+    margin-bottom: 5px; 
+}
+.main-image-container {
+    overflow: hidden;
+}
+.main-image-container > img {
+    width: 100%; 
+}
+.detail-products {
+    padding-top: 120px;
+    background-color: #FCFCFC; 
+    margin-top: 50px; 
+    padding-bottom: 50px; 
+}
+.infor-content > h1 {
+    color: #171b20; 
+    font-size: 55px; 
+    font-weight: 600;
+    font-family: "Bodoni Moda"; 
+}
+.infor-content > p {
+    color: #171b20; 
+    font-size: 20px; 
+}
+.infor-content > ul > li {
+    color: #6a717c; 
+    font-size: 18px; 
+    padding-bottom: 16px; 
+}
+.infor-content > p {
+    color: #6a717c; 
+    font-size: 18px; 
+}
+.roler-product > i {
+    color: #cfb481; 
+}
+.roler-product > span > a {
+    color: #cfb481; 
+    font-weight: 600;
+}
+.price-product {
+    font-size: 40px !important; 
+    color: #cfb481 !important; 
+    margin-top: 20px; 
+}
+.thongso-product, td{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-right: 20px;  
+    font-size: 18px; 
+    color: #6a717c; 
+    font-weight: 600;
+}
+.thongso-product, tr {
+    border-bottom: 1px solid rgba(0, 0, 0, .04); 
+}
+.tooltip-color {
+    left: -25px; 
+}
+.tooltip-color > div {
+    font-weight: 400 !important;
+    font-size: 12px; 
+}
+.cantooltip {
+    left: -5px; 
+}
+.combobox-product {
+    width: 250px; 
+    border: none; 
+    background-color: #F0F2F6; 
+    padding: 8px; 
+    border-radius: 6px;
+    outline: none; 
+    color: #6a717c; 
+}
+.combobox-product:focus {
+    background-color: #EBEBEB; 
+}
+.push-number {
+    border-radius: 6px;
+    margin-right: 5px; 
+}
+.add-number {
+    border-radius: 6px;
+}
+.push-number > span {
+    width: 33%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    font-size: 18px; 
+}
+.push-number > span:first-child:hover {
+    background-color: #EBEBEB; 
+    cursor: pointer;
+}
+.push-number > span:last-child:hover {
+    background-color: #EBEBEB; 
+    cursor: pointer;
+}
+.push-number {
+    background-color: #F0F2F6; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px; 
+}
+.add-number {
+    width: 100%; 
+    background-color: #8A8C8E; 
+    color: #fff; 
+    font-weight: 700;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.item-tag {
+    padding-left: 10px !important; 
+    padding-right: 10px !important; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid silver; 
+}
+.item-tag > p {
+    padding: 0 !important; 
+}
+.tags {
+    margin-top: 16px; 
+}
+.tags > span {
+    background-color: #F0F2F6; 
+    padding: 5px; 
+}
+.thongso {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;  
+}
+.thongso > div {
+    width: 33%; 
+}
+.category {
+    margin-top: 16px; 
+    color: #cfb481; 
+}
+.category > span > a {
+    color: #cfb481;
+}
+.sku > span {
+    padding: 5px; 
+    border: 1px solid silver; 
+    border-radius: 5px;
+}
+.sku {
+    margin-top: 16px; 
+}
+.description-babyshop {
+    padding-bottom: 80px; 
+}
+.description-babyshop > p {
+    width: 50%; 
+    margin: auto; 
+    font-size: 18px; 
+    color: #373f4b;     
+}
+.enviro-icon {
+    width: 50%; 
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto; 
+    margin-top: 40px; 
+    justify-content: space-between; 
+}
+.enviro-icon > div > h3 {
+    font-size: 16px; 
+    text-align: center;
+}
+.enviro-icon > div {
+    width: 45%; 
+}
+.title-description > div:first-child {
+    color: #171b20;
+    font-size: 20px; 
+    font-weight: 500;
+}
+.enviro_item-icon > div{
+    width: 35px; 
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px; 
+}
+.enviro_item-icon { 
+    margin: auto; 
+}
+.enviro_icon-flex {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon_cog{
+    background-color: #ebc989; 
+}
+.icon_cog > i {
+    color: #fff; 
+}
+.icon_burn{
+    background-color: rgb(85, 141, 151); 
+}
+.icon_burn > i {
+    color: #fff; 
+}
+.icon_burn-khac {
+    background-color: rgba(0, 0, 0, .06); 
+}
+.icon_burn-khac > i {
+    color: #fff; 
+}
+.icon_hands {
+    background-color: rgb(181, 172, 160); 
+    color: #fff; 
+}
+.icon_gem {
+    background-color: rgb(89, 97, 109); 
+    color: #fff; 
+}
+.new_product-item > img {
+    width: 40%; 
+}
+.new_product-item {
+    background-color: #fafafa; 
+    padding: 20px; 
+}
+.infor_new-product > h3 {
+    color: #171b20; 
+    font-size: 20px; 
+    font-weight: 600;
+    font-family: "Bodoni Moda"; 
+    margin-bottom: 16px; 
+}
+.infor_new-product > p {
+    color: #6a717c; 
+    line-height: 1.8;
+}
+.content_infor-itemproduct {
+    color: #6a717c !important; 
+    margin-bottom: 20px !important;  
+    font-size: 16px !important; 
+}
+.mota_sanphamkhac > div:last-child {
+    width: 40%;
+}
+.mota_sanphamkhac > div:first-child {
+    width: 56%; 
+}
+.mota_sanphamkhac > div > img {
+    width: 100%;
+}
+.noidungmota > h3 {
+    font-size: 16px; 
+    color: #ebc989; 
+    font-weight: 700;
+    padding-top: 80px; 
+}
+.noidungmota > h1 {
+    color:#171b20; 
+    font-size: 55px; 
+    font-weight: 600;
+    font-family: "Bodoni Moda"; 
+}
+.noidungmota > p {
+    color:#171b20; 
+    font-size: 18px;
+}
+.danhgia_sanpham {
+    margin-bottom: 8px; 
+}
+.danhgia_sanpham > div {
+    width: 100px; 
+    height: 1px;
+    background-color: #6a717c; 
+    margin-top: 16px; 
+}
+.danhgia_sanpham > span > span {
+    color: #6a717c; 
+    font-weight: 500;
+}
+.danhgia_sanpham > span > i {
+    color:#ebc989; 
+}
+.thongtin_item2 > h3 {
+    color:#ebc989; 
+    font-size: 16px; 
+    font-weight: 600;
+}
+.thongtin_item2 > h1 {
+    color:#171b20; 
+    font-size: 55px; 
+    font-weight: 600;
+    font-family: "Bodoni Moda"; 
+}
+.thongtin_item2 > p {
+    color:#171b20; 
+    font-size: 18px;
+}
+.anh_item2 > img {
+    margin-top: 60px; 
+}
+.thongtin_products {
+    background-color: #FAFAFA; 
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+}
+.compare_our-products {
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+}
+.compare_our-products > h1 {
+    color:#171b20; 
+    font-size: 55px; 
+    font-weight: 600;
+    font-family: "Bodoni Moda";
+}
+.compare_our-products > h1 > div {
+    width: 200px; 
+    height: 10px; 
+    background-color:#ebc989; 
+    top: 45px;
+    left: 36%;  
+    z-index: -1; 
+}
+.compare_our-products > p {
+    color: #373f4b; 
+    font-size: 20px; 
+    font-weight: 400;
+}
+.compare_item{
+    width: 70%;
+    margin: auto; 
+    gap: 16px; 
+}
+.compare_item > div {
+    width: 33%; 
+}
+.compare_infor-item > div:first-child {
+    width: 50px; 
+    height: 50px;
+    border: 1px solid black; 
+    border-radius: 50%;
+    background-color: #ebc989; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 16px; 
+}
+.compare_infor-item > h2 {
+    color: #171b20; 
+    font-family: "Bodoni Moda"; 
+    font-size: 30px; 
+    font-weight: 600;
+}
+.compare_infor-item > p {
+    color: #6a717c; 
+}
+.thongso_compare-item1 > div {
+    color: #6a717c; 
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+    border-bottom: 1px solid #6a717c; 
+}
+.thongso_compare-item1 > div:last-child {
+    border-bottom: none; 
+}
+.circle_compare-item1 > div {
+    width: 15px; 
+    height: 15px;
+    border: 1px solid #6a717c; 
+    border-radius: 50%;
+    margin: auto; 
+}
+.addtional-infor {
+    width: 70%; 
+    margin: auto; 
+}
+.addtional-infor > h2 {
+    color: #171b20; 
+    font-size: 30px; 
+    font-weight: 400;
+    font-family: "Bodoni Moda"; 
+}
+.duongke {
+    width: 80%;  
+    height: 1px;
+    background-color:#8A8C8E; 
+}
+.review-product {
+    width: 70%; 
+    margin: auto; 
+}
+.review-product > h2 {
+    color: #171b20; 
+    font-size: 30px; 
+    font-weight: 400;
+    font-family: "Bodoni Moda"; 
+}
+.review-product > p {
+    color: #6a717c; 
+    font-weight: 500;
+    padding-top: 20px; 
+}
+.review-product > div {
+    color: #171b20; 
+    font-size: 21px;  
+}
+.review-product > p > span > a {
+    color:#ebc989; 
+}
+.sanphamreview > h2 {
+    color: #171b20; 
+    font-size: 30px; 
+    font-weight: 400;
+    font-family: "Bodoni Moda";
+}
+.review_products > a {
+    width: 23%; 
+}
+.content-foo > div > span {
+    color: #fff; 
+    opacity: 0.6;
+}
+.content-foo > div > a{
+    color: #fff; 
+    text-decoration: underline;
+    opacity: 1;
+}
+.scrool_phan3 > a > i {
+    color:#6a717c;
+    transition: color 0.3s; 
+}
+.scrool_phan3 > a > i:hover {
+    color: black; 
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+.foo_hover {
+    padding: 30px;
+    background-color: black; 
+    margin-top: 80px; 
+    margin-bottom: 20px;
+    transition: background-color 0.5s; 
+}
+.foo_hover:hover {
+    background-color:#ebc989; 
+}
+
+.heart-control > i {
+    font-size: 1.15rem; 
+    color: hsla(0, 0%, 65%, .85); 
+}
+.heart-control {
+    position: absolute; 
+    top: 20px; 
+    right: 20px;
+    width: 40px; 
+    height: 40px;
+    border: 2px solid hsla(0, 0%, 65%, 0.85); 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
+    transition: background-color 0.5s ease; 
+}
+.heart-control:hover > i {
+    color: #fff; 
+}
+.heart-control:hover {
+    background-color: #b20000; 
+    cursor: pointer;
+    border: none; 
+}
+.navbar_mobile {
+    display: none;
+}
+.bantin_sanpham > div {
+    width: 48%;
+}
+#navbar-babyshop1 {
+    opacity: 0.9;
+}
+
+#prevImage {
+    height: 50%;
+    margin-top: 10%;
+}
+#nextImage {
+    height: 50%;
+    margin-top: 10%;
+}
